@@ -1,3 +1,5 @@
 var Assets = {
-  template: `../img`,
+  template: `../assets`,
 };
+
+export default Assets;

@@ -3,3 +3,5 @@ var Home = {
 	<a href="https://shouts.dev/articles/vue-js-routing-from-scratch-using-cdn-without-cli">REF</a>
 	</div>`,
 };
+
+export default Home;

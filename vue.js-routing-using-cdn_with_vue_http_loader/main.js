@@ -1,3 +1,8 @@
+import Home from "./pages/home.vue.js";
+import About from "./pages/about.vue.js";
+import Assets from "./pages/assets.vue.js";
+import Contact from "./pages/contact.vue.js";
+
 const app2 = new Vue({
   el: "#app2",
   data: {},

@@ -8,3 +8,4 @@ var About = {
 	<img src="../assets/nova.jpg" alt="img"/>
 	</div>`,
 };
+export default About;
