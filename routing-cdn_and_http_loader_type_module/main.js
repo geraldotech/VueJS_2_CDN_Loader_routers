@@ -7,8 +7,7 @@ const app2 = new Vue({
   el: "#app2",
   data: {},
   components: {
-    foo: httpVueLoader("./footer.vue"),
-    //foo: httpVueLoader("footer.vue"),
+    foo: httpVueLoader("./pages/footer.vue"),
   },
 });
 
