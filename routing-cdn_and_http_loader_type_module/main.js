@@ -13,15 +13,15 @@ const app2 = new Vue({
 
 var routes = [
   { path: "/", component: Home },
-  { path: "/about", component: About },
-  //{ path: "/assets", component: Assets },
+  { path: "/download", component: httpVueLoader("./pages/download.vue") },
   { path: "/sobre", component: httpVueLoader("./pages/sobre.vue") },
 ];
 
 var router = new VueRouter({
   routes: routes,
   mode: "history",
-  base: "/#",
+  //base: "/#",
+  base: "/",
 });
 
 var app = new Vue({

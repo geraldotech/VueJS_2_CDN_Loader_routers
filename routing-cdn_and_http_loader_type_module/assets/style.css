@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 75rem;
+  min-width: 320px;
   margin: 0 auto;
   text-align: center;
 }
@@ -18,10 +19,6 @@ header {
 }
 article {
   flex: 1;
-}
-footer {
-  min-height: 50px;
-  background: olive;
 }
 
 nav ul {
@@ -38,4 +35,12 @@ picture > img {
 }
 .route-content {
   margin-top: 40px;
+}
+section p {
+  padding: 0 40px;
+}
+
+footer {
+  min-height: 50px;
+  background: olive;
 }
