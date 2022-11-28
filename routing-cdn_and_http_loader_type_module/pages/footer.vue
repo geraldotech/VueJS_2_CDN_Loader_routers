@@ -1,6 +1,12 @@
 <template>
   <footer>
-    <p>exemplo de rotas com http-vue-loader</p>
+    <p>
+      Exemplo de rotas com http-vue-loader, carrega template.js e components.vue
+      <a
+        href="https://shouts.dev/articles/vue-js-routing-from-scratch-using-cdn-without-cli"
+        >REF</a
+      >
+    </p>
     <p>footer</p>
   </footer>
 </template>
