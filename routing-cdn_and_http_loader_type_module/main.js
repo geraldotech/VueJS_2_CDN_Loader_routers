@@ -1,12 +1,11 @@
 import Home from "./pages/home.vue.js";
 import About from "./pages/about.vue.js";
-//import Assets from "./pages/assets.vue.js";
 
 const test = {
   template: `<p>Apenas uma rota de tests!</p>`,
 };
 const NotFound = {
-  template: `<p>Não encontrado</p>`,
+  template: `<h3>Não encontrado</h3>`,
 };
 
 const app2 = new Vue({
