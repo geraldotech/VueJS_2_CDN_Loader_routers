@@ -1,17 +1,30 @@
 <template>
   <footer>
     <p>by gmapdev - footer.vue - {{ ab }}</p>
-
-    <div id="appz">
+    <!-- <div id="rotas">
       <nav>
         <ul>
-          <router-link to="/"> Home </router-link>
-          <router-link to="/download"> Home </router-link>
-          <router-link to="/sobre"> Home </router-link>
+          <li><router-link class="nav-link" to="/"> Home </router-link></li>
+          <li>
+            <router-link class="nav-link" to="download">
+              Downloads
+            </router-link>
+          </li>
+          <li>
+            <router-link class="nav-link" to="sobre"> Sobre </router-link>
+          </li>
+          <li>
+            <router-link class="nav-link" to="test"> Test </router-link>
+          </li>
+          <li>
+            <router-link class="nav-link" to="testccc"> Not Found </router-link>
+          </li>
         </ul>
       </nav>
-      <router-view></router-view>
-    </div>
+      <div class="route-content">
+        <router-view></router-view>
+      </div>
+    </div> -->
   </footer>
 </template>
 
@@ -22,7 +35,8 @@ footer {
   height: 50px;
   text-align: center;
 }
-</style>>
+</style>
+ 
 <script>
 module.exports = {
   data: function () {
@@ -31,26 +45,5 @@ module.exports = {
     };
   },
 };
-
-var appz = new Vue({
-  el: "#appz",
-  router: routerz,
-});
-const Home = { template: `bem vindo!` };
-const download = { template: `bem vindo!` };
-const sobre = { template: `bem vindo!` };
-
-var routesz = [
-  { path: "/", component: Home },
-  { path: "/download", component: download },
-  { path: "/sobre", component: sobre },
-];
-
-var routerz = new VueRouter({
-  routes: routesz,
-  mode: "history",
-  //base: "/#",
-  base: "/",
-});
 </script>
 

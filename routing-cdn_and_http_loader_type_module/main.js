@@ -25,7 +25,6 @@ var routes = [
   {
     path: "/:pathMatch(.*)*",
     name: "not-found",
-    //component: httpVueLoader("./pages/sobre.vue"),
     component: NotFound,
   },
 ];
@@ -39,6 +38,6 @@ var router = new VueRouter({
 });
 
 var app = new Vue({
-  el: "#app",
+  el: "#rotas",
   router: router,
 });
