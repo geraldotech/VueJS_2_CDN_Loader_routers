@@ -34,7 +34,7 @@ var router = new VueRouter({
   mode: "history",
   //base: "/#apps",
   //base: "/app",
-  base: "/#page=",
+  base: "/#",
 });
 
 var app = new Vue({
