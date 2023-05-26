@@ -1,3 +1,5 @@
+### [Live Demo](https://vuejs.geraldox.com/#/)
+
 Exemplo de rotas com http-vue-loader
 
 - load template.js
