@@ -13,7 +13,7 @@ Exemplo de rotas com http-vue-loader
 - change base URL
 - not-found message
 - `<router-view></router-view>` funciona tanto no App.vue ou no component que está o `router-link`
-- reformulado a padrão de pastas
+- reformulado default directory:
   - src > components "components"
   - src > views "routes"
   - src > assets "styles, images, files"
