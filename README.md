@@ -1,4 +1,6 @@
-### [Live Demo](https://vuejs.geraldox.com/#/)
+### [Live Demo by DigitalOcean](https://vuejs.geraldox.com/)
+
+### [Live Demo by Netlify](https://vuejs2-cdn-loader-router.netlify.app/)
 
 Exemplo de rotas com http-vue-loader
 
