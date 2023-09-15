@@ -1,3 +1,7 @@
+### - [Live Demo by DigitalOcean](https://vuejs.geraldox.com/)
+
+### - [Live Demo by Netlify](https://vuejs2-cdn-loader-router.netlify.app/#/)
+
 # Starter Master Template CDN
 
 - http_vue_loader
