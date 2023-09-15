@@ -1,6 +1,6 @@
-import rotas from "../src/rotas.js";
+import rotas from "../src/router/index.js";
 
-new Vue({
+const vm = new Vue({
   data: {},
   el: "#app",
   template: `<App></App>`,

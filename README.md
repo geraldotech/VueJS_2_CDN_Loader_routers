@@ -1,11 +1,7 @@
-# Live Demo Autoupdates
+# Starter Master Template CDN
 
-### [Live Demo by DigitalOcean](https://vuejs.geraldox.com/)
-
-### [Live Demo by Netlify](https://vuejs2-cdn-loader-router.netlify.app/)
-
-Exemplo de rotas com http-vue-loader
-
+- http_vue_loader
+- VueRouter 3.0.2
 - load template.js
 - load string template
 - load components.vue
@@ -13,8 +9,8 @@ Exemplo de rotas com http-vue-loader
 - change base URL
 - not-found message
 - `<router-view></router-view>` funciona tanto no App.vue ou no component que está o `router-link`
-- reformulado default directory:
-  - src > components "components"
-  - src > views "routes"
-  - src > assets "styles, images, files"
-- removido arquivo global de CSS do index.html para o parent component modo global CSS
+- reformulado a padrão de pastas
+  - src > components **"components"**
+  - src > views **"routes"**
+  - src > assets **"styles, images, files"**
+- removido arquivo global de CSS do **index.html** para o parent component modo global CSS
